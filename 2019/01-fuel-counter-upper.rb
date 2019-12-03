@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 # Run this with:
-# cat 1a.input | xargs ruby fuel-counter-upper.rb
+# cat 1a.input | xargs ruby 01-fuel-counter-upper.rb
 
 def fuel_needed(mass)
     return (mass / 3) - 2
